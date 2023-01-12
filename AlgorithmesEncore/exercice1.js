@@ -4,8 +4,8 @@ let listen = [1,8,10,21];
 let y = 19;
 
 function findSum(table, number) {
-  for (let i = 0; i < table.length; i++) {
-    for (let j = 1; j < table.length; j++) {
+  for (let i = 0 ; i < table.length; i++) {
+    for (let j = 0 ; j < table.length; j++) {
       if (table[i] + table[j + 1] == number) {
       return true;
       }
